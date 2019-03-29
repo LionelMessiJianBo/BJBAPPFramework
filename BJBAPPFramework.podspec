@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BJBAPPFramework"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "BJBAPPFramework."
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   # spec.exclude_files = "Classes/Exclude"
     spec.source_files = 'AppFramework/AppFramework.framework/Headers/*.{h}'
     spec.vendored_frameworks = 'AppFramework/AppFramework.framework'
-    spec.public_header_files = 'AppFramework/AppFramework.framework/Headers/AppFramework.h'
+    # spec.public_header_files = 'AppFramework/AppFramework.framework/Headers/AppFramework.h'
   # spec.public_header_files = "Classes/**/*.h"
 
 
