@@ -1,0 +1,6 @@
+framework module AppFramework {
+  umbrella header "AppFramework.h"
+
+  export *
+  module * { export * }
+}
